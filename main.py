@@ -74,12 +74,12 @@ def planning_information():
 
     xpath_username = "/html/body/div/div/div[2]/b/div/div/form/div[1]/input"
     username = driver.find_element(By.XPATH, xpath_username)
-    username.send_keys('p.huynh@myskolae.fr')
+    username.send_keys('YOUR_ACCOUNT')
     time.sleep(0.05)
 
     xpath_password = "/html/body/div/div/div[2]/b/div/div/form/div[2]/input"
     password = driver.find_element(By.XPATH, xpath_password)
-    password.send_keys('SpfvWx928pWC')
+    password.send_keys('YOUR_PASSWORD')
     time.sleep(0.05)
 
     xpath_login = "/html/body/div/div/div[2]/b/div/div/form/div[3]/input[4]"
